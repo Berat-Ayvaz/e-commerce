@@ -79,6 +79,9 @@ header {
 }
 .header-center .menu-list .menu-list-item {
   display: flex;
+  align-items: center;
+  position: relative;
+  height: 90px;
 }
 .header-center .menu-list .menu-link {
   font-size: 14px;
@@ -148,4 +151,17 @@ header {
   font-weight: 500;
 }
 
+/*? menu-dropdown start */
+header .menu-dropdown-wrapper {
+  position: absolute;
+  top: 100%;
+  /* left: -30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease; */
+}
+header .menu-dropdown-content {
+  width: 220px;
+}
+/*? menu-dropdown end */
 /*! header end  */
