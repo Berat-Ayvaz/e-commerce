@@ -185,6 +185,19 @@ header .menu-dropdown-content a:hover {
   opacity: 1;
   visibility: visible;
 }
+.menu-dropdown-megamenu{
+  background-color: #fff;
+  border: 1px solid #dee0ea;
+  padding: 22px;
+  display: flex;
+}
+.menu-dropdown-megamenu .megamenu-links{
+  display: flex;
+}
+
+.menu-dropdown-megamenu .megamenu-single{
+  display: flex;
+}
 /*? menu dropdown end  */
 
 /*! header end  */
