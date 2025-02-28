@@ -185,18 +185,25 @@ header .menu-dropdown-content a:hover {
   opacity: 1;
   visibility: visible;
 }
-.menu-dropdown-megamenu{
+.menu-dropdown-megamenu {
   background-color: #fff;
   border: 1px solid #dee0ea;
   padding: 22px;
   display: flex;
 }
-.menu-dropdown-megamenu .megamenu-links{
+.menu-dropdown-megamenu .megamenu-links {
   display: flex;
 }
 
-.menu-dropdown-megamenu .megamenu-single{
+.menu-dropdown-megamenu .megamenu-single {
   display: flex;
+}
+
+header .megamenu-products-button {
+  width: 15px;
+  height: 15px;
+  border-width: 2px;
+  background-color: #1367ef;
 }
 /*? menu dropdown end  */
 
