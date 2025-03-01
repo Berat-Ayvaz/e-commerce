@@ -186,24 +186,57 @@ header .menu-dropdown-content a:hover {
   visibility: visible;
 }
 .menu-dropdown-megamenu {
-  background-color: #fff;
+  background-color: white;
   border: 1px solid #dee0ea;
   padding: 22px;
   display: flex;
+  column-gap: 50px;
 }
-.menu-dropdown-megamenu .megamenu-links {
+.megamenu-wrapper .menu-dropdown-wrapper {
+  left: 0;
+  width: 100%;
   display: flex;
+  justify-content: center;
 }
 
-.menu-dropdown-megamenu .megamenu-single {
-  display: flex;
+.megamenu-wrapper {
+  position: static !important;
 }
 
-header .megamenu-products-button {
-  width: 15px;
-  height: 15px;
-  border-width: 2px;
-  background-color: #1367ef;
+.megamenu-wrapper .megamenu-links {
+  display: flex;
+  column-gap: 50px;
+}
+
+.megamenu-wrapper .megamenu-products-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.megamenu-wrapper .megamenu-menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.megamenu-wrapper .megamenu-menu-list a {
+  font-size: 14px;
+}
+
+.megamenu-wrapper .megamenu-single-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.megamenu-wrapper .megamenu-single-subtitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.megamenu-wrapper .megamenu-single-button {
+  margin-top: 5px;
 }
 /*? menu dropdown end  */
 
