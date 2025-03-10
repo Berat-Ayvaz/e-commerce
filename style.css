@@ -203,7 +203,7 @@ header .menu-dropdown-content a:hover {
   position: static !important;
 }
 
-.megamenu-wrapper .megamenu-links {
+.menu-dropdown-megamenu .megamenu-links {
   display: flex;
   column-gap: 50px;
 }
@@ -234,10 +234,9 @@ header .menu-dropdown-content a:hover {
   margin-bottom: 10px;
   font-weight: 400;
 }
-
 .megamenu-wrapper .megamenu-single-button {
   margin-top: 5px;
 }
-/*? menu dropdown end  */
 
+/*? menu dropdown end  */
 /*! header end  */
